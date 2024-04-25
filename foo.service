@@ -1,0 +1,10 @@
+[Unit]
+Description=foo
+PartOf=foobar.target
+
+[Service]
+Type=notify
+ExecStart=/home/ubuntu/sd_notify_test/foo
+
+[Install]
+WantedBy=foobar.target

@@ -1,0 +1,5 @@
+[Unit]
+Description=foo and bar
+
+[Install]
+WantedBy=default.target
